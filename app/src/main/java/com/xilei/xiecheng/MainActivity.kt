@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         MainViewModel(this).getActicle().observe(this, Observer {
             it?.run {
-                Log.d("XiLei", "data=${get(0)?.name}")
+//                Log.d("XiLei", "data=${get(0)?.records[0].user_name}")
+                Log.d("XiLei", "data=${records[0].user_name}")
             }
         })
     }

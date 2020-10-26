@@ -16,7 +16,8 @@ import java.util.concurrent.TimeUnit
  */
 object RetrofitClient {
 
-    val BASE_URL = "http://47.108.91.250:80/"
+//    val BASE_URL = "http://47.108.91.250:80/"
+    val BASE_URL = "https://employeet0422.sancaijia.net/"
     val TIME_OUT = 10L
     val SUCCESS_CODE=200
     val requestApi by lazy {
@@ -46,7 +47,8 @@ object RetrofitClient {
 //                .header("Content-Type", "application/x-www-form-urlencoded")
                 .header("charset", "utf-8")
                 .header("Accept", "application/json")
-                .header("token", "e1c917d0b36eb812c3a57a10d1a699ff")
+//                .header("token", "e1c917d0b36eb812c3a57a10d1a699ff")
+                .header("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ0ZW5hbnRJZCI6MTAwMDAwMDAsInVzZXJUeXBlIjoiRU1QTE9ZRUVfUkVHSVNURVJFRCIsInVzZXJJZCI6MTI3NDAzMzU2MTkyNzY4LCJqdGkiOiJUT0tFTl8xMjc0MDMzNTYxOTI3NjhfYW5kcm9pZF9jYzYwMzYzYTljYTlmOTlkYTk1NmY0MDU2YWQ0YmI1OWVlZTdjZWQ3IiwicGxhdGZvcm0iOiJDTElFTlRfQU5EUk9JRCIsImhhc2giOiJjYzYwMzYzYTljYTlmOTlkYTk1NmY0MDU2YWQ0YmI1OWVlZTdjZWQ3In0.EImzWEOc6-ra2F0LiJQwbVH6d1WbyLP4lXEkxsckGLk")
                 .header("deviceId", "869583031161115")
                 .header("language", "zh")
                 .get()

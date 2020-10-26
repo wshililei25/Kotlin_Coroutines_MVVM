@@ -1,7 +1,7 @@
 package com.xilei.xiecheng.api
 
 import com.xilei.xiecheng.bean.BaseResp
-import com.xilei.xiecheng.bean.StudyClassifyBean
+import com.xilei.xiecheng.bean.YiChuLiBean
 import retrofit2.http.GET
 
 /**
@@ -10,8 +10,8 @@ import retrofit2.http.GET
 interface RequestApi {
 
     /**
-     * 课程分类
+     * 已处理的待办
      */
-    @GET("fang/huoqu/edu/kind/getEduKindList")
-    suspend fun getClassifyList(): BaseResp<MutableList<StudyClassifyBean>>
+    @GET("api/v1/housing/manager/approval/1?size=20&page=1&review_status=4&keyword=")
+    suspend fun getYiChuliList(): BaseResp<YiChuLiBean>
 }
