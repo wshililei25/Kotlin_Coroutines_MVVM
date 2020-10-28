@@ -32,4 +32,5 @@ class MainViewModel(var context: Context) : BaseViewModel() {
         } else context.toastShort(result.message)
     }
 
+
 }
