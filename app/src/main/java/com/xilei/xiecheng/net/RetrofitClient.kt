@@ -50,7 +50,7 @@ object RetrofitClient {
                 .header("charset", "utf-8")
                 .header("Accept", "application/json")
 //                .header("token", "e1c917d0b36eb812c3a57a10d1a699ff")
-                .header("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ0ZW5hbnRJZCI6MTAwMDAwMDAsInVzZXJUeXBlIjoiRU1QTE9ZRUVfUkVHSVNURVJFRCIsInVzZXJJZCI6MTI3NDAzMzU2MTkyNzY4LCJqdGkiOiJUT0tFTl8xMjc0MDMzNTYxOTI3NjhfYW5kcm9pZF83M2Y2ZDQwMzQ3ZThhNmQyZmE1ZjBjYzNkNjg1MzJkMGU2MTI0MmNjIiwicGxhdGZvcm0iOiJDTElFTlRfQU5EUk9JRCIsImhhc2giOiI3M2Y2ZDQwMzQ3ZThhNmQyZmE1ZjBjYzNkNjg1MzJkMGU2MTI0MmNjIn0.pK1c8b6pSVoQoKfcN96AzQQEgxaWEBoG0ycz3Dl8aHk")
+                .header("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLZW4iLCJ0ZW5hbnRJZCI6MTAwMDAwMDAsInVzZXJUeXBlIjoiRU1QTE9ZRUVfUkVHSVNURVJFRCIsInVzZXJJZCI6MTI3NDAzMzU2MTkyNzY4LCJqdGkiOiJUT0tFTl8xMjc0MDMzNTYxOTI3NjhfYW5kcm9pZF83YzA2YjI3YjFmZDliMDhmNzA4MWJhNGU3MTcxODU0ZjM4OTAwMDY1IiwicGxhdGZvcm0iOiJDTElFTlRfQU5EUk9JRCIsImhhc2giOiI3YzA2YjI3YjFmZDliMDhmNzA4MWJhNGU3MTcxODU0ZjM4OTAwMDY1In0.36_X4YW3phUpRagiNoNqUwE0EZcLMUylTmvrwM04zPg")
                 .header("deviceId", "869583031161115")
                 .header("language", "zh")
                 .get()

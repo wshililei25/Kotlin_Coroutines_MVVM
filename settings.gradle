@@ -1,2 +1,4 @@
+include ':VersionPlugin'
+include ':BaseModule'
 include ':app'
 rootProject.name = "Kotlin_XieCheng_MVVM"
